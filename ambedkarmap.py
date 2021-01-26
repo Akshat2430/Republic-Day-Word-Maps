@@ -1,5 +1,5 @@
 # Read the whole text.
-f = open(r'../input/ambedkarkibaate/ambedkarspeech.txt.txt', "r")
+f = open(r'../input/ambedkarkibaate/ambedkarspeech.txt', "r")
 text = f.read()
 
 # Create mask
