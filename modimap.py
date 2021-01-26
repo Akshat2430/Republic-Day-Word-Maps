@@ -1,9 +1,9 @@
 # Read the whole text.
-f = open(r'./np3.txt', "r")
+f = open(r'./modispeech.txt', "r")
 text = f.read()
 
 # Read the mask image
-modi_coloring = np.array(Image.open('../input/modipic/narendramodi-pti.jpg'))
+modi_coloring = np.array(Image.open('../input/modipic/modi.png'))
 stopwords = set(STOPWORDS)
 
 # Set up word cloud
